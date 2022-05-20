@@ -1,0 +1,344 @@
+.backimage{
+    width: 100%;
+    height: auto;
+    background-image: url("https://demo.bosathemes.com/html/travele/assets/images/slider-banner-2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.backimage1{
+    width: 100%;
+    height: 750px;
+    background-image: url("https://demo.bosathemes.com/html/travele/assets/images/slider-banner-1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.overlay{
+    width: 100%;
+    background-color: #0000009d;
+    height: 750px;
+}
+.carousel-caption h5{
+    font-size: 64px;
+}
+@media (max-width:768px){
+    .carousel-caption h5{
+        font-size: 40px;
+    }
+}
+
+button.viewtours{
+    background-color: tomato;
+    border: none;
+    color: white;
+    border-radius: 0px;
+    font-weight: 500;
+}
+button.viewtours:hover{
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+}
+.search-tour{
+    width: 100%;
+    background-color: #43434396;
+    height: auto;
+
+}
+.search-tour select{
+    padding: 2px 0px;
+    font-size: 14px;
+    border-radius: 0;
+}
+.search-tour input{
+    padding: 2px 0px;
+    font-size: 14px;
+    border-radius: 0;
+}
+.search-tour button{
+    color: white;
+    background-color: tomato;
+    border: none;
+    font-size: 18px;
+    border-radius: 0;
+    font-weight: 500;
+    padding: 2px 13px
+}
+
+.search-tour button:hover{
+    background-color: white;
+    color: tomato;
+    border: 2px solid tomato;
+}
+nav{
+    border-bottom: 2px solid #8080801a;
+    background-color: #f7f7f7;
+}
+.av-link{
+    font-family: 'Cabin', sans-serif;    font-size: 18px;
+    color:#101f46;
+    text-decoration: none;
+    font-size: 17px;
+}
+.av-link:hover{
+
+    background-color: tomato;
+    color: white;
+}
+/* about */
+.overlay2{
+    width: 100%;
+    height: 35px;
+    /* background-color: #00000060;
+    color: white; */
+    background-color: tomato;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+}
+.overlay2:hover{
+    background-color: #0000009d;
+    color: white;
+    /* text-decoration: underline; */
+    height: 315px;
+    border: 2px solid white;
+    
+}
+.overlay2 p{
+    color: transparent;
+    text-decoration: none;
+}
+.overlay2 p:hover{
+    color: white;
+    text-decoration: none;
+}
+h4#abouthed{
+    font-family: 'Kaushan Script';
+    color: tomato;
+}
+#about p{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* background */
+.tcolor{
+    color: tomato;
+}
+.tbg{
+    background-color: tomato;
+}
+/* color */
+
+/*destination*/
+h2.mhead{
+    color: #101f46;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.dest-item{
+    border: 15px solid #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.dest-item img{
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+}
+.dest-item img:hover{
+    filter: brightness(100%);
+    transform: scale(1.3);
+}
+.dest-item:hover{
+    box-shadow: 0px 0px 9px 0px tomato;
+}
+.dest-tag{
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}
+.desttag{
+    background-color: tomato;
+    color: white;
+    font-family: system-ui;
+    padding: 3px 13px;
+    font-size: 18px;
+}
+.desttag:hover{
+    background-color: #108dbc;
+    cursor: pointer;
+}
+.dest-rating{
+    position: absolute;
+    top: 17rem;
+    left: 1rem;
+}
+.destrating{
+    color: white;
+    font-family:  'Cabin', sans-serif;
+    font-weight: bold;
+}
+.dest-rating i,.dest-rating1 i{
+    color: #f7b500;
+}
+.dest-tag1{
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+}
+.dest-rating1{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+}
+button.moredes{
+    background-color: tomato;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-weight: 500;
+}
+button.moredes:hover{
+    color: white;
+    background-color: #108dbc;
+}
+
+
+/* offer */
+.offer{
+    width: 100%;
+    height: auto;
+    background-image: url('https://demo.bosathemes.com/html/travele/assets/images/img16.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+}
+.overlay3{
+    width: 100%;
+    background-color: #0000009d;
+    height: auto;
+}
+.offer h4{
+    color: white;
+    /* font-family:  'Cabin', sans-serif; */
+    font-size: 54px;
+    font-weight: bold;
+}
+.offer p{
+    font-size:21px;
+    color: white;
+}
+.offer input{
+    border-radius: 0;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.offer button{
+    background-color: tomato;
+    border-radius: 0;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+}
+.offer button:hover{
+    color: white;
+    background-color: #0f8ebd;
+}
+/* blog */
+.card-title{
+    color: #101f46;
+    font-size: 21px;
+    font-weight: bold;
+    font-family:  'Cabin', sans-serif;
+}
+.card-text{
+    font-size: 14px;
+    color: #939393;
+}
+button.readmore{
+    background-color: tomato;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+button.readmore:hover{
+    color: white;
+    background-color: #108dbc;
+}
+.card{
+    box-shadow: 0px 1px 13px 1px #9a9a9a;
+}
+
+/* contact */
+.contact input,.contact textarea{
+    border: none;
+    border-radius: 0;
+}
+.contact{
+    width: 100%;
+    /* background-color: #0791be; */
+    background-color: #383838;
+    height: auto;
+}
+.contact button{
+    background-color: tomato;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 46px;
+}
+.contact-details{
+    font-size: 13px;
+    line-height: 35px;
+    color: white;
+}
+.vline{
+    width: 1%;
+    background-color: white;
+    height: 273px;
+}
+
+@media (max-width:768px){
+    .vline{
+        width: 91%;
+        background-color: white;
+        height: 3px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        
+    }
+    
+}
+.contact-details i{
+    
+    background-color: #8080805c;
+    border-radius: 34px;
+    font-size: 18px;
+    padding: 12px 13px;
+    border: 1px solid #ffffff25;
+
+}
+.contact-details i:hover{
+    background-color: tomato;
+}
+
+.bfooter{
+    width: 100%;
+    background-color: black;
+    height:auto ;
+}
+.bfooter{
+    color: rgb(94, 92, 92);
+    font-size: 16px;
+    text-align: center;
+}
